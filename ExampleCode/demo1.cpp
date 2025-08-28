@@ -5,10 +5,8 @@
 using namespace std; //me specifying my namespace
 
 int main() { //start of my program and main function
-   int dogYears;
-   float humanYears;
 
-   cout << "Hello world!" << endl;
+   cout << "Hello world!" << endl; //print statement
    
-   return 0;
+   return 0; //ending program statement
 }
