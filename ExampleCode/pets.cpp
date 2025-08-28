@@ -5,9 +5,11 @@ int main() {
    int dogYears;
    float humanYears;
 
+   cout << "How old is the dog? > ";
+
    cin >> dogYears;
     
-   humanYears = 7.659 * dogYears;
+   humanYears = 7 * dogYears;
 
    cout << dogYears;
    cout << " dog years is about ";
