@@ -12,6 +12,6 @@ int main()
 
     farenheit = (celcius * 9/5) + 32;
 
-    cout << "The temperature in farenheit: " << farenheit;
+    cout << "The temperature in farenheit: " << farenheit << endl;
 
 }
