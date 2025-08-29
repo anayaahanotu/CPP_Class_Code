@@ -3,15 +3,15 @@ using namespace std;
 
 int main()
 {
-    int numPizzas; 
+    double farenheit;
+    double celcius;
 
-    cout << "How many pizzas did you order: ";
+    cout << "Enter the temperature in celcius: ";
+    
+    cin >> celcius;
 
-    cin >> numPizzas;
+    farenheit = (celcius * 9/5) + 32;
 
-    int cost = numPizzas * 12;
+    cout << "The temperature in farenheit: " << farenheit;
 
-    cout << "Your pizza cost: $" << cost << endl;
-
-    return 0;
 }
