@@ -1,17 +1,16 @@
+#include <iomanip>
 #include <iostream>
 using namespace std;
 
-int main()
-{
-    double farenheit;
-    double celcius;
+int main() {
+    // Modify the following code
+    double inputConduct = 3.5;
+    int inverseVal = 22;
+    int a = 5;
 
-    cout << "Enter the temperature in celcius: ";
-    
-    cin >> celcius;
+    cout << inverseVal << endl << endl;
 
-    farenheit = (celcius * 9/5) + 32;
+    cout << static_cast<double> (2) << endl;
 
-    cout << "The temperature in farenheit: " << farenheit << endl;
-
+    return 0;
 }
