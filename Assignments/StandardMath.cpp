@@ -34,7 +34,7 @@ int main(){
     cout << fixed << setprecision(4) << "\nThe sum of the numbers is: "
         <<  num1 + num2 << endl;
 
-    cout << "The difference of the 1st number and 2nd number is: " 
+    cout << "The difference between the 1st number and 2nd number is: " 
         << num1 - num2 << endl;
 
     cout << "The products of the numbers  is: " << num1 * num2 << endl;

@@ -4,13 +4,11 @@ using namespace std;
 
 int main() {
     // Modify the following code
-    double inputConduct = 3.5;
-    int inverseVal = 22;
-    int a = 5;
+    string firstName, lastName;
 
-    cout << inverseVal << endl << endl;
+    bool flag = 3 > 5;
 
-    cout << static_cast<double> (2) << endl;
+    cout << static_cast<bool>(flag) << endl;
 
     return 0;
 }
