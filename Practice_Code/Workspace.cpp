@@ -6,9 +6,9 @@ int main() {
     // Modify the following code
     string firstName, lastName;
 
-    bool flag = 3 > 5;
+    double num = 7/2;
 
-    cout << static_cast<bool>(flag) << endl;
+    cout << num << endl;
 
     return 0;
 }
