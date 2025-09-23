@@ -7,7 +7,12 @@ using namespace std; //me specifying my namespace
 
 int main() { //start of my program and main function
 
-   cout << showpoint << setprecision(3) << 10.000000 << endl;
+   
+   if ("Margaret" > "Mary Jane") {
+      cout << true << endl;
+   }
+
+   cout << 0 << endl;
    
    return 0; //ending program statement
 }
