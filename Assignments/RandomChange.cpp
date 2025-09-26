@@ -13,7 +13,8 @@ Algorithm
 * coinState: int: which side of the coin is facing up: 0 for heads, 1 for tails
 * isWinning: bool: is the player winning
 * additionalCurrency: double: amount to be added to user's balance
-* nextRound: char: filler variable so user can press enter to move on to the next round
+* nextRound: char: filler variable so user can press enter to move on to the
+next round
 * myEngine: random_device: random number generator
 
 **Procedure**
@@ -30,7 +31,8 @@ Algorithm
 11. welcome the user and give them their starting balance
 12. round 1: prompt the user to press enter to flip the coin
 13. use random to flip the coin (0- heads, 1- tails)
-14. if the coin is heads: tell the user and add a random value (between 0 and 99, inclusive) to the user's balance 
+14. if the coin is heads: tell the user and add a random value (between 0 and
+99, inclusive) to the user's balance 
 	1. set additionalBalance to (random number / 100.0)
 	2. add the value of additionalBalance to balance
 	3. tell the user they flipped heads and their new balance.
@@ -39,7 +41,8 @@ Algorithm
 17. if the player is winning (isWinning): play round 2:
 	1.  round 2: prompt the user to press enter to flip the coin
 	2. use random to flip the coin (0- heads, 1- tails)
-	3. if the coin is heads: tell the user and add a random value (between 0 and 99, inclusive) to the user's balance 
+	3. if the coin is heads: tell the user and add a random value (between 0
+	and 99, inclusive) to the user's balance 
 		1. set additionalBalance to (random number / 100.0)
 		2. add the value of additionalBalance to balance
 		3. tell the user they flipped heads and their new balance.
@@ -48,7 +51,8 @@ Algorithm
 18. if the player is winning (isWinning): play round 3:
 	1.  round 3: prompt the user to press enter to flip the coin
 	2. use random to flip the coin (0- heads, 1- tails)
-	3. if the coin is heads: tell the user and add a random value (between 0 and 99, inclusive) to the user's balance 
+	3. if the coin is heads: tell the user and add a random value (between 0
+	and 99, inclusive) to the user's balance 
 		1. set additionalBalance to (random number / 100.0)
 		2. add the value of additionalBalance to balance
 		3. tell the user they flipped heads and their new balance.
@@ -57,7 +61,8 @@ Algorithm
 19. if the player is winning (isWinning): play round 4:
 	1.  round 4: prompt the user to press enter to flip the coin
 	2. use random to flip the coin (0- heads, 1- tails)
-	3. if the coin is heads: tell the user and add a random value (between 0 and 99, inclusive) to the user's balance 
+	3. if the coin is heads: tell the user and add a random value (between 0
+	and 99, inclusive) to the user's balance 
 		1. set additionalBalance to (random number / 100.0)
 		2. add the value of additionalBalance to balance
 		3. tell the user they flipped heads and their new balance.
@@ -66,7 +71,8 @@ Algorithm
 20. if the player is winning (isWinning): play round 5:
 	1. round 1: prompt the user to press enter to flip the coin
 21. use random to flip the coin (0- heads, 1- tails)
-	1. if the coin is heads: tell the user and add a random value (between 0 and 99, inclusive) to the user's balance 
+	1. if the coin is heads: tell the user and add a random value (between 0 
+	and 99, inclusive) to the user's balance 
 		1. set additionalBalance to (random number / 100.0)
 		2. add the value of additionalBalance to balance
 		3. tell the user they flipped heads and their new balance.
