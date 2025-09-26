@@ -4,11 +4,11 @@ using namespace std;
 
 int main() {
     // Modify the following code
-    string firstName, lastName;
+    int num;
+    double decimal;
+    string name;
 
-    double num = 7/2;
+    cin >> num >> decimal >> name;
 
-    cout << num << endl;
-
-    return 0;
+    cout << num << " " << decimal << " " << name << endl;
 }
